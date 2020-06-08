@@ -1,25 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as Styled from './App.styles';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Styled.Container>
+      <Styled.Button>Wciśnij mnie!</Styled.Button>
+      <Styled.BlueButton>Niebieski!</Styled.BlueButton>
+      <Styled.RedButton>Czerwony!</Styled.RedButton>
+    </Styled.Container>
   );
 }
 
