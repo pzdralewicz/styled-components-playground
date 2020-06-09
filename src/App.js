@@ -1,14 +1,16 @@
-import React from 'react';
-import * as Styled from './App.styles';
+import React from "react";
+
+import BasicExample from "./BasicExample/BasicExample";
+import ComplexExamples from "./ComplexExamples/ComplexExamples";
+import { VerticalContainer } from "./common/styles";
 
 const App = () => {
   return (
-    <Styled.Container>
-      <Styled.Button>Wciśnij mnie!</Styled.Button>
-      <Styled.BlueButton>Niebieski!</Styled.BlueButton>
-      <Styled.RedButton>Czerwony!</Styled.RedButton>
-    </Styled.Container>
+    <VerticalContainer>
+      <BasicExample />
+      <ComplexExamples />
+    </VerticalContainer>
   );
-}
+};
 
 export default App;
