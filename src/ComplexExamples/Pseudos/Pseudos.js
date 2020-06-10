@@ -13,7 +13,9 @@ const Pseudos = () => {
             <p id="unique-paragraph">Akapit z id</p>
           </div>
         </Styled.Paragraphs>
-        <Styled.HoverableBox />
+        <Styled.HoverableBox>
+          <p>Najedź na mnie</p>
+        </Styled.HoverableBox>
       </HorizontalContainer>
     </VerticalContainer>
   );

@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import { Box } from "../../common/styles";
 
 export const Paragraphs = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   div {
     background: antiquewhite;
@@ -27,10 +29,8 @@ export const Paragraphs = styled.div`
   }
 `;
 
-export const HoverableBox = styled.div`
+export const HoverableBox = styled(Box)`
   transition: 300ms all;
-  height: 100px;
-  width: 100px;
   background: aqua;
 
   :hover {
