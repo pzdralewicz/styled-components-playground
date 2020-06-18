@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Button = styled.button`
   border: 0;
@@ -6,17 +6,10 @@ export const Button = styled.button`
   font-weight: bold;
   padding: 1rem;
   margin: 1rem;
-  
+
   :hover {
     filter: invert(25%);
   }
-`;
-
-export const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 `;
 
 export const BlueButton = styled(Button)`
@@ -26,4 +19,8 @@ export const BlueButton = styled(Button)`
 
 export const RedButton = styled(Button)`
   background: #f00;
+`;
+
+export const YellowButton = styled(Button)`
+  background: #fa0;
 `;
